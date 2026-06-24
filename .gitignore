@@ -1,0 +1,22 @@
+# Deployment files only
+.gitignore
+*.md
+!DEPLOYMENT*.md
+!README.md
+Dockerfile
+docker-compose.yml
+package.json
+frontend/package.json
+frontend/next.config.mjs
+frontend/tailwind.config.js
+frontend/postcss.config.js
+frontend/tsconfig.json
+frontend/src/app/*
+frontend/src/components/*
+!frontend/src/components/awards-design/*
+!frontend/src/components/ds-bundle/*
+frontend/src/test/*
+frontend/public/*
+!frontend/public/fonts/*
+backend/*
+!backend/__pycache__/*
