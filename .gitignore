@@ -1,22 +1,71 @@
-# Deployment files only
-.gitignore
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+.cache/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Debug
+*.map
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc
+*.tmp
+*.temp
+
+# OS
+.Trashes
+.Spotlight-V100
+.TemporaryItems
+
+# Misc
+.sass-cache
+.jekyll-cache
+.gemfile
+.bundle
+vendor/bundle
+.bundle/
+.exs*
+.mypy_cache
+.pytest_cache
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis
+.cache
+
+# Markdown files: we want to keep the deployment marks and README
 *.md
 !DEPLOYMENT*.md
 !README.md
-Dockerfile
-docker-compose.yml
-package.json
-frontend/package.json
-frontend/next.config.mjs
-frontend/tailwind.config.js
-frontend/postcss.config.js
-frontend/tsconfig.json
-frontend/src/app/*
-frontend/src/components/*
-!frontend/src/components/awards-design/*
-!frontend/src/components/ds-bundle/*
-frontend/src/test/*
-frontend/public/*
-!frontend/public/fonts/*
-backend/*
-!backend/__pycache__/*
+# Python
+__pycache__/
+*.py[cod]
+*.class
