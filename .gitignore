@@ -69,3 +69,7 @@ htmlcov/
 __pycache__/
 *.py[cod]
 *.class
+
+# Secrets and agent dirs
+.brainsync/
+.kombai/
